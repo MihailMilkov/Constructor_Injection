@@ -1,3 +1,7 @@
+class zcl_Abap_Test_Test definition deferred.
+  class zcl_abap_test definition
+    local friends zcl_abap_test_test.
+
 class lcl_mock_class definition.
   public section.
     interfaces zif_abap_to_mock.
