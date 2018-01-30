@@ -35,7 +35,7 @@ method CONSTRUCTOR.
 
   data lt_tests type string_table.
 
-  if io_mock_object is supplied.
+  if io_mock_object is not initial.
     mo_to_mock = io_mock_object.
   else.
     create object mo_to_mock type zcl_abap_to_mock.
